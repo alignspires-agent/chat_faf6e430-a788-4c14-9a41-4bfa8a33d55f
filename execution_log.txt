@@ -1,0 +1,304 @@
+Lambda Execution Result (Latest Run):
+INIT_REPORT Init Duration: 9994.42 ms	Phase: init	Status: timeout
+
+=== Experiment Output ===
+
+2025-10-02 07:00:50,261 - INFO - Starting LP-Robust Conformal Prediction Experiment
+
+2025-10-02 07:00:50,261 - INFO - Generating synthetic data: 1000 samples, 20 features, 3 classes
+
+2025-10-02 07:00:50,793 - INFO - Data generated - Train: (700, 20), Test: (300, 20)
+
+2025-10-02 07:00:50,793 - INFO - Training base classifier...
+
+2025-10-02 07:00:50,978 - INFO - Base classifier accuracy - Train: 1.0000, Test: 0.8067
+
+2025-10-02 07:00:50,989 - INFO - Running 5 random splits for evaluation...
+
+2025-10-02 07:00:50,989 - INFO - Split 1/5
+
+2025-10-02 07:00:50,990 - INFO - Initialized LP Robust Conformal Predictor with alpha=0.1, epsilon=0.1, rho=0.05
+
+2025-10-02 07:00:50,990 - INFO - Fitting LP robust conformal predictor with 150 calibration scores
+
+2025-10-02 07:00:50,991 - INFO - Computed worst-case quantile: 1.2987 (base: 1.1987, robust_level: 0.9560)
+
+2025-10-02 07:00:50,991 - INFO - Successfully fitted model with quantile threshold: 1.2987
+
+2025-10-02 07:00:50,992 - INFO - Generated prediction sets for 150 test instances
+
+2025-10-02 07:00:50,993 - INFO - Evaluation results - Coverage: 0.9400 (target: 0.9000), Avg set size: 1.5000
+
+2025-10-02 07:00:50,993 - INFO - Split 1 completed - Coverage: 0.9400
+
+2025-10-02 07:00:50,993 - INFO - Split 2/5
+
+2025-10-02 07:00:50,994 - INFO - Initialized LP Robust Conformal Predictor with alpha=0.1, epsilon=0.1, rho=0.05
+
+2025-10-02 07:00:50,994 - INFO - Fitting LP robust conformal predictor with 150 calibration scores
+
+2025-10-02 07:00:50,994 - INFO - Computed worst-case quantile: 1.4059 (base: 1.3059, robust_level: 0.9560)
+
+2025-10-02 07:00:50,994 - INFO - Successfully fitted model with quantile threshold: 1.4059
+
+2025-10-02 07:00:50,995 - INFO - Generated prediction sets for 150 test instances
+
+2025-10-02 07:00:50,995 - INFO - Evaluation results - Coverage: 0.9467 (target: 0.9000), Avg set size: 1.5600
+
+2025-10-02 07:00:50,995 - INFO - Split 2 completed - Coverage: 0.9467
+
+2025-10-02 07:00:50,995 - INFO - Split 3/5
+
+2025-10-02 07:00:50,996 - INFO - Initialized LP Robust Conformal Predictor with alpha=0.1, epsilon=0.1, rho=0.05
+
+2025-10-02 07:00:50,996 - INFO - Fitting LP robust conformal predictor with 150 calibration scores
+
+2025-10-02 07:00:50,996 - INFO - Computed worst-case quantile: 1.5212 (base: 1.4212, robust_level: 0.9560)
+
+2025-10-02 07:00:50,996 - INFO - Successfully fitted model with quantile threshold: 1.5212
+
+2025-10-02 07:00:50,997 - INFO - Generated prediction sets for 150 test instances
+
+2025-10-02 07:00:50,997 - INFO - Evaluation results - Coverage: 0.9800 (target: 0.9000), Avg set size: 1.9333
+
+2025-10-02 07:00:50,997 - INFO - Split 3 completed - Coverage: 0.9800
+
+2025-10-02 07:00:50,997 - INFO - Split 4/5
+
+2025-10-02 07:00:50,998 - INFO - Initialized LP Robust Conformal Predictor with alpha=0.1, epsilon=0.1, rho=0.05
+
+2025-10-02 07:00:50,998 - INFO - Fitting LP robust conformal predictor with 150 calibration scores
+
+2025-10-02 07:00:50,998 - INFO - Computed worst-case quantile: 1.4059 (base: 1.3059, robust_level: 0.9560)
+
+2025-10-02 07:00:50,998 - INFO - Successfully fitted model with quantile threshold: 1.4059
+
+2025-10-02 07:00:50,998 - INFO - Generated prediction sets for 150 test instances
+
+2025-10-02 07:00:50,999 - INFO - Evaluation results - Coverage: 0.9533 (target: 0.9000), Avg set size: 1.6200
+
+2025-10-02 07:00:50,999 - INFO - Split 4 completed - Coverage: 0.9533
+
+2025-10-02 07:00:50,999 - INFO - Split 5/5
+
+2025-10-02 07:00:50,999 - INFO - Initialized LP Robust Conformal Predictor with alpha=0.1, epsilon=0.1, rho=0.05
+
+2025-10-02 07:00:50,999 - INFO - Fitting LP robust conformal predictor with 150 calibration scores
+
+2025-10-02 07:00:51,000 - INFO - Computed worst-case quantile: 1.3730 (base: 1.2730, robust_level: 0.9560)
+
+2025-10-02 07:00:51,000 - INFO - Successfully fitted model with quantile threshold: 1.3730
+
+2025-10-02 07:00:51,000 - INFO - Generated prediction sets for 150 test instances
+
+2025-10-02 07:00:51,000 - INFO - Evaluation results - Coverage: 0.9467 (target: 0.9000), Avg set size: 1.6467
+
+2025-10-02 07:00:51,001 - INFO - Split 5 completed - Coverage: 0.9467
+
+2025-10-02 07:00:51,001 - INFO - 
+
+==================================================
+
+2025-10-02 07:00:51,001 - INFO - FINAL EXPERIMENT RESULTS
+
+2025-10-02 07:00:51,001 - INFO - ==================================================
+
+2025-10-02 07:00:51,001 - INFO - Target coverage level: 0.9000
+
+2025-10-02 07:00:51,001 - INFO - Average empirical coverage: 0.9533
+
+2025-10-02 07:00:51,001 - INFO - Average prediction set size: 1.6520
+
+2025-10-02 07:00:51,001 - INFO - Average efficiency: 0.6099
+
+2025-10-02 07:00:51,001 - INFO - LP robustness parameters - epsilon: 0.1, rho: 0.05
+
+2025-10-02 07:00:51,001 - INFO - Successful splits: 5/5
+
+2025-10-02 07:00:51,001 - INFO - ✓ Coverage guarantee maintained
+
+2025-10-02 07:00:51,001 - INFO - Experiment completed successfully
+
+=== Experiment Errors ===
+
+/usr/local/lib/python3.11/site-packages/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 2] No such file or directory.  joblib will operate in serial mode
+
+warnings.warn("%s.  joblib will operate in serial mode" % (e,))
+
+{
+
+"experimentStatusCode": 200,
+
+"body": {
+
+"message": "Experiment completed successfully",
+
+"returncode": 0,
+
+"stdout": "2025-10-02 07:00:50,261 - INFO - Starting LP-Robust Conformal Prediction Experiment\n2025-10-02 07:00:50,261 - INFO - Generating synthetic data: 1000 samples, 20 features, 3 classes\n2025-10-02 07:00:50,793 - INFO - Data generated - Train: (700, 20), Test: (300, 20)\n2025-10-02 07:00:50,793 - INFO - Training base classifier...\n2025-10-02 07:00:50,978 - INFO - Base classifier accuracy - Train: 1.0000, Test: 0.8067\n2025-10-02 07:00:50,989 - INFO - Running 5 random splits for evaluation...\n2025-10-02 07:00:50,989 - INFO - Split 1/5\n2025-10-02 07:00:50,990 - INFO - Initialized LP Robust Conformal Predictor with alpha=0.1, epsilon=0.1, rho=0.05\n2025-10-02 07:00:50,990 - INFO - Fitting LP robust conformal predictor with 150 calibration scores\n2025-10-02 07:00:50,991 - INFO - Computed worst-case quantile: 1.2987 (base: 1.1987, robust_level: 0.9560)\n2025-10-02 07:00:50,991 - INFO - Successfully fitted model with quantile threshold: 1.2987\n2025-10-02 07:00:50,992 - INFO - Generated prediction sets for 150 test instances\n2025-10-02 07:00:50,993 - INFO - Evaluation results - Coverage: 0.9400 (target: 0.9000), Avg set size: 1.5000\n2025-10-02 07:00:50,993 - INFO - Split 1 completed - Coverage: 0.9400\n2025-10-02 07:00:50,993 - INFO - Split 2/5\n2025-10-02 07:00:50,994 - INFO - Initialized LP Robust Conformal Predictor with alpha=0.1, epsilon=0.1, rho=0.05\n2025-10-02 07:00:50,994 - INFO - Fitting LP robust conformal predictor with 150 calibration scores\n2025-10-02 07:00:50,994 - INFO - Computed worst-case quantile: 1.4059 (base: 1.3059, robust_level: 0.9560)\n2025-10-02 07:00:50,994 - INFO - Successfully fitted model with quantile threshold: 1.4059\n2025-10-02 07:00:50,995 - INFO - Generated prediction sets for 150 test instances\n2025-10-02 07:00:50,995 - INFO - Evaluation results - Coverage: 0.9467 (target: 0.9000), Avg set size: 1.5600\n2025-10-02 07:00:50,995 - INFO - Split 2 completed - Coverage: 0.9467\n2025-10-02 07:00:50,995 - INFO - Split 3/5\n2025-10-02 07:00:50,996 - INFO - Initialized LP Robust Conformal Predictor with alpha=0.1, epsilon=0.1, rho=0.05\n2025-10-02 07:00:50,996 - INFO - Fitting LP robust conformal predictor with 150 calibration scores\n2025-10-02 07:00:50,996 - INFO - Computed worst-case quantile: 1.5212 (base: 1.4212, robust_level: 0.9560)\n2025-10-02 07:00:50,996 - INFO - Successfully fitted model with quantile threshold: 1.5212\n2025-10-02 07:00:50,997 - INFO - Generated prediction sets for 150 test instances\n2025-10-02 07:00:50,997 - INFO - Evaluation results - Coverage: 0.9800 (target: 0.9000), Avg set size: 1.9333\n2025-10-02 07:00:50,997 - INFO - Split 3 completed - Coverage: 0.9800\n2025-10-02 07:00:50,997 - INFO - Split 4/5\n2025-10-02 07:00:50,998 - INFO - Initialized LP Robust Conformal Predictor with alpha=0.1, epsilon=0.1, rho=0.05\n2025-10-02 07:00:50,998 - INFO - Fitting LP robust conformal predictor with 150 calibration scores\n2025-10-02 07:00:50,998 - INFO - Computed worst-case quantile: 1.4059 (base: 1.3059, robust_level: 0.9560)\n2025-10-02 07:00:50,998 - INFO - Successfully fitted model with quantile threshold: 1.4059\n2025-10-02 07:00:50,998 - INFO - Generated prediction sets for 150 test instances\n2025-10-02 07:00:50,999 - INFO - Evaluation results - Coverage: 0.9533 (target: 0.9000), Avg set size: 1.6200\n2025-10-02 07:00:50,999 - INFO - Split 4 completed - Coverage: 0.9533\n2025-10-02 07:00:50,999 - INFO - Split 5/5\n2025-10-02 07:00:50,999 - INFO - Initialized LP Robust Conformal Predictor with alpha=0.1, epsilon=0.1, rho=0.05\n2025-10-02 07:00:50,999 - INFO - Fitting LP robust conformal predictor with 150 calibration scores\n2025-10-02 07:00:51,000 - INFO - Computed worst-case quantile: 1.3730 (base: 1.2730, robust_level: 0.9560)\n2025-10-02 07:00:51,000 - INFO - Successfully fitted model with quantile threshold: 1.3730\n2025-10-02 07:00:51,000 - INFO - Generated prediction sets for 150 test instances\n2025-10-02 07:00:51,000 - INFO - Evaluation results - Coverage: 0.9467 (target: 0.9000), Avg set size: 1.6467\n2025-10-02 07:00:51,001 - INFO - Split 5 completed - Coverage: 0.9467\n2025-10-02 07:00:51,001 - INFO - \n==================================================\n2025-10-02 07:00:51,001 - INFO - FINAL EXPERIMENT RESULTS\n2025-10-02 07:00:51,001 - INFO - ==================================================\n2025-10-02 07:00:51,001 - INFO - Target coverage level: 0.9000\n2025-10-02 07:00:51,001 - INFO - Average empirical coverage: 0.9533\n2025-10-02 07:00:51,001 - INFO - Average prediction set size: 1.6520\n2025-10-02 07:00:51,001 - INFO - Average efficiency: 0.6099\n2025-10-02 07:00:51,001 - INFO - LP robustness parameters - epsilon: 0.1, rho: 0.05\n2025-10-02 07:00:51,001 - INFO - Successful splits: 5/5\n2025-10-02 07:00:51,001 - INFO - \u2713 Coverage guarantee maintained\n2025-10-02 07:00:51,001 - INFO - Experiment completed successfully\n",
+
+"stderr": "/usr/local/lib/python3.11/site-packages/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 2] No such file or directory.  joblib will operate in serial mode\n  warnings.warn(\"%s.  joblib will operate in serial mode\" % (e,))\n",
+
+"execution_time": null
+
+}
+
+}
+
+INIT_REPORT Init Duration: 21443.68 ms	Phase: invoke	Status: error	Error Type: Runtime.ExitError
+
+START RequestId: 9d536a47-9f27-460c-a27a-a158179a568b Version: $LATEST
+
+RequestId: 9d536a47-9f27-460c-a27a-a158179a568b Error: Runtime exited without providing a reason
+Runtime.ExitError
+
+END RequestId: 9d536a47-9f27-460c-a27a-a158179a568b
+
+REPORT RequestId: 9d536a47-9f27-460c-a27a-a158179a568b	Duration: 21445.79 ms	Billed Duration: 21446 ms	Memory Size: 3008 MB	Max Memory Used: 155 MB	
+
+=== Experiment Output ===
+
+2025-10-02 07:00:52,250 - INFO - Starting LP-Robust Conformal Prediction Experiment
+
+2025-10-02 07:00:52,250 - INFO - Generating synthetic data: 1000 samples, 20 features, 3 classes
+
+2025-10-02 07:00:52,254 - INFO - Data generated - Train: (700, 20), Test: (300, 20)
+
+2025-10-02 07:00:52,254 - INFO - Training base classifier...
+
+2025-10-02 07:00:52,437 - INFO - Base classifier accuracy - Train: 1.0000, Test: 0.8067
+
+2025-10-02 07:00:52,448 - INFO - Running 5 random splits for evaluation...
+
+2025-10-02 07:00:52,448 - INFO - Split 1/5
+
+2025-10-02 07:00:52,449 - INFO - Initialized LP Robust Conformal Predictor with alpha=0.1, epsilon=0.1, rho=0.05
+
+2025-10-02 07:00:52,449 - INFO - Fitting LP robust conformal predictor with 150 calibration scores
+
+2025-10-02 07:00:52,450 - INFO - Computed worst-case quantile: 1.2987 (base: 1.1987, robust_level: 0.9560)
+
+2025-10-02 07:00:52,450 - INFO - Successfully fitted model with quantile threshold: 1.2987
+
+2025-10-02 07:00:52,450 - INFO - Generated prediction sets for 150 test instances
+
+2025-10-02 07:00:52,451 - INFO - Evaluation results - Coverage: 0.9400 (target: 0.9000), Avg set size: 1.5000
+
+2025-10-02 07:00:52,451 - INFO - Split 1 completed - Coverage: 0.9400
+
+2025-10-02 07:00:52,451 - INFO - Split 2/5
+
+2025-10-02 07:00:52,451 - INFO - Initialized LP Robust Conformal Predictor with alpha=0.1, epsilon=0.1, rho=0.05
+
+2025-10-02 07:00:52,451 - INFO - Fitting LP robust conformal predictor with 150 calibration scores
+
+2025-10-02 07:00:52,452 - INFO - Computed worst-case quantile: 1.4059 (base: 1.3059, robust_level: 0.9560)
+
+2025-10-02 07:00:52,452 - INFO - Successfully fitted model with quantile threshold: 1.4059
+
+2025-10-02 07:00:52,452 - INFO - Generated prediction sets for 150 test instances
+
+2025-10-02 07:00:52,453 - INFO - Evaluation results - Coverage: 0.9467 (target: 0.9000), Avg set size: 1.5600
+
+2025-10-02 07:00:52,453 - INFO - Split 2 completed - Coverage: 0.9467
+
+2025-10-02 07:00:52,453 - INFO - Split 3/5
+
+2025-10-02 07:00:52,453 - INFO - Initialized LP Robust Conformal Predictor with alpha=0.1, epsilon=0.1, rho=0.05
+
+2025-10-02 07:00:52,453 - INFO - Fitting LP robust conformal predictor with 150 calibration scores
+
+2025-10-02 07:00:52,454 - INFO - Computed worst-case quantile: 1.5212 (base: 1.4212, robust_level: 0.9560)
+
+2025-10-02 07:00:52,454 - INFO - Successfully fitted model with quantile threshold: 1.5212
+
+2025-10-02 07:00:52,454 - INFO - Generated prediction sets for 150 test instances
+
+2025-10-02 07:00:52,455 - INFO - Evaluation results - Coverage: 0.9800 (target: 0.9000), Avg set size: 1.9333
+
+2025-10-02 07:00:52,455 - INFO - Split 3 completed - Coverage: 0.9800
+
+2025-10-02 07:00:52,455 - INFO - Split 4/5
+
+2025-10-02 07:00:52,455 - INFO - Initialized LP Robust Conformal Predictor with alpha=0.1, epsilon=0.1, rho=0.05
+
+2025-10-02 07:00:52,455 - INFO - Fitting LP robust conformal predictor with 150 calibration scores
+
+2025-10-02 07:00:52,455 - INFO - Computed worst-case quantile: 1.4059 (base: 1.3059, robust_level: 0.9560)
+
+2025-10-02 07:00:52,455 - INFO - Successfully fitted model with quantile threshold: 1.4059
+
+2025-10-02 07:00:52,456 - INFO - Generated prediction sets for 150 test instances
+
+2025-10-02 07:00:52,456 - INFO - Evaluation results - Coverage: 0.9533 (target: 0.9000), Avg set size: 1.6200
+
+2025-10-02 07:00:52,456 - INFO - Split 4 completed - Coverage: 0.9533
+
+2025-10-02 07:00:52,456 - INFO - Split 5/5
+
+2025-10-02 07:00:52,457 - INFO - Initialized LP Robust Conformal Predictor with alpha=0.1, epsilon=0.1, rho=0.05
+
+2025-10-02 07:00:52,457 - INFO - Fitting LP robust conformal predictor with 150 calibration scores
+
+2025-10-02 07:00:52,457 - INFO - Computed worst-case quantile: 1.3730 (base: 1.2730, robust_level: 0.9560)
+
+2025-10-02 07:00:52,457 - INFO - Successfully fitted model with quantile threshold: 1.3730
+
+2025-10-02 07:00:52,458 - INFO - Generated prediction sets for 150 test instances
+
+2025-10-02 07:00:52,458 - INFO - Evaluation results - Coverage: 0.9467 (target: 0.9000), Avg set size: 1.6467
+
+2025-10-02 07:00:52,458 - INFO - Split 5 completed - Coverage: 0.9467
+
+2025-10-02 07:00:52,458 - INFO - 
+
+==================================================
+
+2025-10-02 07:00:52,458 - INFO - FINAL EXPERIMENT RESULTS
+
+2025-10-02 07:00:52,458 - INFO - ==================================================
+
+2025-10-02 07:00:52,458 - INFO - Target coverage level: 0.9000
+
+2025-10-02 07:00:52,458 - INFO - Average empirical coverage: 0.9533
+
+2025-10-02 07:00:52,458 - INFO - Average prediction set size: 1.6520
+
+2025-10-02 07:00:52,459 - INFO - Average efficiency: 0.6099
+
+2025-10-02 07:00:52,459 - INFO - LP robustness parameters - epsilon: 0.1, rho: 0.05
+
+2025-10-02 07:00:52,459 - INFO - Successful splits: 5/5
+
+2025-10-02 07:00:52,459 - INFO - ✓ Coverage guarantee maintained
+
+2025-10-02 07:00:52,459 - INFO - Experiment completed successfully
+
+=== Experiment Errors ===
+
+/usr/local/lib/python3.11/site-packages/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 2] No such file or directory.  joblib will operate in serial mode
+
+warnings.warn("%s.  joblib will operate in serial mode" % (e,))
+
+{
+
+"experimentStatusCode": 200,
+
+"body": {
+
+"message": "Experiment completed successfully",
+
+"returncode": 0,
+
+"stdout": "2025-10-02 07:00:52,250 - INFO - Starting LP-Robust Conformal Prediction Experiment\n2025-10-02 07:00:52,250 - INFO - Generating synthetic data: 1000 samples, 20 features, 3 classes\n2025-10-02 07:00:52,254 - INFO - Data generated - Train: (700, 20), Test: (300, 20)\n2025-10-02 07:00:52,254 - INFO - Training base classifier...\n2025-10-02 07:00:52,437 - INFO - Base classifier accuracy - Train: 1.0000, Test: 0.8067\n2025-10-02 07:00:52,448 - INFO - Running 5 random splits for evaluation...\n2025-10-02 07:00:52,448 - INFO - Split 1/5\n2025-10-02 07:00:52,449 - INFO - Initialized LP Robust Conformal Predictor with alpha=0.1, epsilon=0.1, rho=0.05\n2025-10-02 07:00:52,449 - INFO - Fitting LP robust conformal predictor with 150 calibration scores\n2025-10-02 07:00:52,450 - INFO - Computed worst-case quantile: 1.2987 (base: 1.1987, robust_level: 0.9560)\n2025-10-02 07:00:52,450 - INFO - Successfully fitted model with quantile threshold: 1.2987\n2025-10-02 07:00:52,450 - INFO - Generated prediction sets for 150 test instances\n2025-10-02 07:00:52,451 - INFO - Evaluation results - Coverage: 0.9400 (target: 0.9000), Avg set size: 1.5000\n2025-10-02 07:00:52,451 - INFO - Split 1 completed - Coverage: 0.9400\n2025-10-02 07:00:52,451 - INFO - Split 2/5\n2025-10-02 07:00:52,451 - INFO - Initialized LP Robust Conformal Predictor with alpha=0.1, epsilon=0.1, rho=0.05\n2025-10-02 07:00:52,451 - INFO - Fitting LP robust conformal predictor with 150 calibration scores\n2025-10-02 07:00:52,452 - INFO - Computed worst-case quantile: 1.4059 (base: 1.3059, robust_level: 0.9560)\n2025-10-02 07:00:52,452 - INFO - Successfully fitted model with quantile threshold: 1.4059\n2025-10-02 07:00:52,452 - INFO - Generated prediction sets for 150 test instances\n2025-10-02 07:00:52,453 - INFO - Evaluation results - Coverage: 0.9467 (target: 0.9000), Avg set size: 1.5600\n2025-10-02 07:00:52,453 - INFO - Split 2 completed - Coverage: 0.9467\n2025-10-02 07:00:52,453 - INFO - Split 3/5\n2025-10-02 07:00:52,453 - INFO - Initialized LP Robust Conformal Predictor with alpha=0.1, epsilon=0.1, rho=0.05\n2025-10-02 07:00:52,453 - INFO - Fitting LP robust conformal predictor with 150 calibration scores\n2025-10-02 07:00:52,454 - INFO - Computed worst-case quantile: 1.5212 (base: 1.4212, robust_level: 0.9560)\n2025-10-02 07:00:52,454 - INFO - Successfully fitted model with quantile threshold: 1.5212\n2025-10-02 07:00:52,454 - INFO - Generated prediction sets for 150 test instances\n2025-10-02 07:00:52,455 - INFO - Evaluation results - Coverage: 0.9800 (target: 0.9000), Avg set size: 1.9333\n2025-10-02 07:00:52,455 - INFO - Split 3 completed - Coverage: 0.9800\n2025-10-02 07:00:52,455 - INFO - Split 4/5\n2025-10-02 07:00:52,455 - INFO - Initialized LP Robust Conformal Predictor with alpha=0.1, epsilon=0.1, rho=0.05\n2025-10-02 07:00:52,455 - INFO - Fitting LP robust conformal predictor with 150 calibration scores\n2025-10-02 07:00:52,455 - INFO - Computed worst-case quantile: 1.4059 (base: 1.3059, robust_level: 0.9560)\n2025-10-02 07:00:52,455 - INFO - Successfully fitted model with quantile threshold: 1.4059\n2025-10-02 07:00:52,456 - INFO - Generated prediction sets for 150 test instances\n2025-10-02 07:00:52,456 - INFO - Evaluation results - Coverage: 0.9533 (target: 0.9000), Avg set size: 1.6200\n2025-10-02 07:00:52,456 - INFO - Split 4 completed - Coverage: 0.9533\n2025-10-02 07:00:52,456 - INFO - Split 5/5\n2025-10-02 07:00:52,457 - INFO - Initialized LP Robust Conformal Predictor with alpha=0.1, epsilon=0.1, rho=0.05\n2025-10-02 07:00:52,457 - INFO - Fitting LP robust conformal predictor with 150 calibration scores\n2025-10-02 07:00:52,457 - INFO - Computed worst-case quantile: 1.3730 (base: 1.2730, robust_level: 0.9560)\n2025-10-02 07:00:52,457 - INFO - Successfully fitted model with quantile threshold: 1.3730\n2025-10-02 07:00:52,458 - INFO - Generated prediction sets for 150 test instances\n2025-10-02 07:00:52,458 - INFO - Evaluation results - Coverage: 0.9467 (target: 0.9000), Avg set size: 1.6467\n2025-10-02 07:00:52,458 - INFO - Split 5 completed - Coverage: 0.9467\n2025-10-02 07:00:52,458 - INFO - \n==================================================\n2025-10-02 07:00:52,458 - INFO - FINAL EXPERIMENT RESULTS\n2025-10-02 07:00:52,458 - INFO - ==================================================\n2025-10-02 07:00:52,458 - INFO - Target coverage level: 0.9000\n2025-10-02 07:00:52,458 - INFO - Average empirical coverage: 0.9533\n2025-10-02 07:00:52,458 - INFO - Average prediction set size: 1.6520\n2025-10-02 07:00:52,459 - INFO - Average efficiency: 0.6099\n2025-10-02 07:00:52,459 - INFO - LP robustness parameters - epsilon: 0.1, rho: 0.05\n2025-10-02 07:00:52,459 - INFO - Successful splits: 5/5\n2025-10-02 07:00:52,459 - INFO - \u2713 Coverage guarantee maintained\n2025-10-02 07:00:52,459 - INFO - Experiment completed successfully\n",
+
+"stderr": "/usr/local/lib/python3.11/site-packages/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 2] No such file or directory.  joblib will operate in serial mode\n  warnings.warn(\"%s.  joblib will operate in serial mode\" % (e,))\n",
+
+"execution_time": null
+
+}
+
+}
+
+INIT_REPORT Init Duration: 1409.77 ms	Phase: init	Status: error	Error Type: Runtime.ExitError
+
